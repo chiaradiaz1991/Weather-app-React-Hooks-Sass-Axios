@@ -1,0 +1,22 @@
+.header {
+  text-align: center;
+  border: transparent;
+  padding: 2rem 3rem;
+
+  &Title {
+    font-weight: 600;
+    color: #E3E9FF;
+    font-size: 30px;
+    
+    &Container {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+      img {
+        width: 100px;
+        margin-left: 10px;
+      }
+    }
+  }
+}

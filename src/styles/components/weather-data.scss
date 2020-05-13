@@ -1,0 +1,42 @@
+.weatherData {
+  text-align: center;
+  margin-top: 3rem;
+
+  &City {
+    color: $main-black;
+  }
+
+  &Box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    @include respond(tablet) {
+      margin-top: 2rem;
+    }
+    @include respond(largePhone) {
+      margin-top: 4rem;
+    }
+  }
+
+  &Property {
+    margin: 0 3rem;
+    @include respond(smallPhone) {
+      margin: 0 2rem;
+    }
+  }
+
+  &Title {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  &Value {
+    color: $main-black;
+    font-size: 30px;
+    line-height: 0.6;
+    @include respond(smallPhone) {
+      font-size: 3rem;
+    }
+  }
+}
