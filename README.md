@@ -1,6 +1,4 @@
-#Weather app
-
-*Main Technologies: React Hooks, Sass and Axios.
+#Weather app: Main Technologies: React Hooks, Sass and Axios.
 
 To run this application:
 
